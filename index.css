@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+}
+.menu ul {
+    display: flex;
+    gap: 30px;
+}
+.menu li, a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+.benner-container{
+    height: 100vh;
+    background-image: url("/asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+    background-blend-mode:overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: red;
+}
+.benner-container-heading{
+    font-size: 55px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.benner-container-description{
+    margin: 0 auto;
+    width: 50%;
+    color: white;
+}
+.btn{
+    padding: 10px;
+    margin: 15px 5px;
+    font-size: larger;
+    text-transform: capitalize;
+    font-weight: bolder;
+    border: none;
+
+}
+.bg-primary{
+        background-color: red;
+        color: white;
+}
